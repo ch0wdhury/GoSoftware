@@ -41,6 +41,12 @@
 	.common-title h1 {
 	    font-size: 22px;
 	}
+	.common-title h3 {
+	    font-size: 16px;
+	}
+	.common-title h4 {
+	    font-size: 14px;
+	}
 	.for-margin {
 	    margin-top: 50px;
 	}
@@ -67,6 +73,9 @@
 	}
 	.carousel-logo img {
 		width: 100%!important;
+	}
+	.support-section {
+	    padding: 10px 0;
 	}
 }
 
@@ -102,8 +111,8 @@
 		width: 95%;
 		margin: 0 auto;
 	}
-	.carousel-logo img {
-		width: 100%!important;
+	.support-section {
+	    padding: 40px 0;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
@@ -133,6 +142,9 @@
 	.card-body {
 		padding: 10px;
 	}
+	.support-section {
+	    padding: 70px 0;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -147,6 +159,9 @@
 	.custom-btn {
 	    padding: 5px 10px;
 	    font-size: 14px;
+	}
+	.support-section {
+	    padding: 140px 0;
 	}
 }
 

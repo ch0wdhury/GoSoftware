@@ -22,7 +22,7 @@ a:hover {
 }
 
 
-/* ---------- Header Section Starts -------- */
+/*  Header Section Starts */
 header {
 	color: #e79b0e;
     position: relative;
@@ -44,7 +44,7 @@ header img {
     padding: 10px 0;
 }
 
-/* ------- Header Section Ends --------- */
+/*  Header Section Ends  */
 /* Banner Section Starts Here */
 .banner {
     background-image: url('../images/banner.mcfee.png');
@@ -121,10 +121,24 @@ header img {
 }
 /* Product Showcase Ends Here */
 
-/* ------- Common Title Starts --------- */
+/*  Common Title Starts  */
 .common-title h1 {
     font-size: 30px;
     font-weight: 700;
+    color: #AA1E21;
+}
+.common-title h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #AA1E21;
+}
+.common-title h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #63666A;
+    margin: 20px 0;
+}
+.common-title span {
     color: #AA1E21;
 }
 .common-title p {
@@ -161,6 +175,10 @@ header img {
     color: #AA1E21;
     font-weight: 700;
     font-size: 14px;
+    transition: .5s ease;
+}
+.common-title a:hover {
+    text-decoration: underline;
 }
 .custom-btn {
     background-color: #AA1E21;
@@ -173,8 +191,8 @@ header img {
     background-color: #000;
     color: #fff;
 }
-/* ------- Common Title Ends --------- */
-/* ------- Comparison Table --------- */
+/*  Common Title Ends  */
+/*  Comparison Table  */
 .comparison-section {
     padding: 50px 0;
    background: #AA1E21;
@@ -250,8 +268,8 @@ header img {
     opacity: 1;
   }
 }
-/* ------- Service Table --------- */
-/* ------- Testimonial Section Starts Here --------- */
+/*  Service Table  */
+/*  Testimonial Section Starts Here */
 #clients {
 	padding: 50px 0;
 	background-color: #FFF;
@@ -278,10 +296,23 @@ header img {
 	padding-top: 10px;
 	color: #AA1E21;
 }
-/* ------- Testimonial Section Ends Here --------- */
-/* ------- Footer Section Starts Here --------- */
+/*  Testimonial Section Ends Here  */
+/* Support Section Starts Here */
+.support-section {
+    padding: 150px 0;
+    background-image: url(../images/banner-image-support.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 10px solid #AA1E21;
+}
+/* Support Section Ends Here */
+/*  Footer Section Starts Here  */
 footer {
 	padding-top: 50px;
+}
+footer hr {
+    border-color: #AA1E21;
 }
 .footer-description h5 {
 	font-size: 18px;
@@ -303,5 +334,5 @@ footer {
 	font-size: 20px;
 	font-weight: 500;
 }
-/* ------- Footer Section Ends Here --------- */
+/*  Footer Section Ends Here  */
 
