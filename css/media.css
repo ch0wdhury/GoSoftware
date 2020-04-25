@@ -1,0 +1,156 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	header img {
+	    width: 100%;
+	}
+	.marquee {
+		margin-top: 56px;
+		position: absolute;
+		top: 0px;
+	    font-size: 16px;
+	    padding: 10px 0;
+	}
+	.carousel-content-custom img {
+		margin-bottom: 10px;
+	}
+	.banner-product-details {
+	    padding: 10px 10px;
+	}
+	.banner-product-details h3 {
+	    font-size: 16px;
+	}
+	.banner-product-details h5 {
+	    font-size: 14px;
+	}
+	.banner-product-details ul {
+	    margin-left: 10px;
+	    font-size: 12px;
+	}
+	.quick-info-content i {
+	    font-size: 30px;
+	}
+	.quick-info-content h5 {
+	    font-size: 14px;
+	}
+	.quick-info-content p {
+	    font-size: 8px;
+	}
+	.product-container {
+		margin-bottom: 20px;
+	}
+	.common-title h1 {
+	    font-size: 22px;
+	}
+	.for-margin {
+	    margin-top: 50px;
+	}
+	.custom-btn {
+	    padding: 5px 10px;
+	    font-size: 14px;
+	}
+	.pricing .card-price {
+	  font-size: 20px;
+	  margin: 0;
+	}
+	.pricing ul li {
+		 font-size: 11px;
+	}
+	.card-body {
+		padding: 10px;
+	}
+	.owl-carousel img {
+		width: 40%!important;
+	}	
+	.testimonial_body {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.carousel-logo img {
+		width: 100%!important;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.marquee {
+	    font-size: 18px;
+	    padding: 15px 0;
+	}
+	.quick-info-content i {
+	    font-size: 30px;
+	}
+	.quick-info-content h5 {
+	    font-size: 12px;
+	}
+	.quick-info-content p {
+	    font-size: 10px;
+	}
+	.pricing .card-price {
+	  font-size: 35px;
+	  margin: 0;
+	}
+	.card-body {
+		padding: 10px;
+	}
+	.pricing ul li {
+		 font-size: 11px;
+	}
+	.owl-carousel img {
+		width: 30%!important;
+	}	
+	.testimonial_body {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.carousel-logo img {
+		width: 100%!important;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.marquee {
+	    font-size: 18px;
+	    padding: 15px 0;
+	}
+	.quick-info-content i {
+	    font-size: 35px;
+	}
+	.quick-info-content h5 {
+	    font-size: 14px;
+	}
+	.quick-info-content p {
+	    font-size: 12px;
+	}
+	.product-container {
+		margin-bottom: 20px;
+	}
+	.for-margin {
+	    margin-top: 50px;
+	}
+	.pricing .card-title {
+	  font-size: .7rem;
+	}
+	.card-body {
+		padding: 10px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.marquee {
+	    font-size: 22px;
+	    padding: 12px 0;
+	}
+	.for-margin {
+	    margin-top: 100px;
+	}
+	.custom-btn {
+	    padding: 5px 10px;
+	    font-size: 14px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

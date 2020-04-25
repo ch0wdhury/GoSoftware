@@ -1,0 +1,307 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+html, body {
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	color: #282923;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	background: #eee;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+/* ---------- Header Section Starts -------- */
+header {
+	color: #e79b0e;
+    position: relative;
+    min-height: 56px;
+}
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+/* ------- Header Section Ends --------- */
+/* Banner Section Starts Here */
+.banner {
+    background-image: url('../images/banner.mcfee.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.banner-product-details {
+    padding: 30px 50px;
+    background-color: rgba(0,0,0, .7);
+    border-radius: 5px;
+    color: #fff;
+}
+.banner-product-details h3 {
+    font-weight: 700;
+}
+.banner-product-details ul {
+    margin-left: 30px;
+}
+/* Banner Section Ends Here */
+/* Quick Info Section Satrts Here */
+.quick-info {
+    padding: 20px 0;
+}
+.quick-info-content i {
+    font-size: 50px;
+    color: #AA1E21;
+}
+.quick-info-content h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.quick-info-content span {
+    color: #AA1E21;
+}
+.quick-info-content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Quick Info Section Ends Here */
+/* Product SHowcase Starts Here */
+.product-showcase {
+    padding: 50px 0;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.product-container {
+    transition: .5s ease;
+}
+.product-container:hover {
+    background-color: rgba(0,0,0, .5);
+    color: #fff;
+}
+.product-container h6, .product-container h4 {
+    font-weight: 700;
+}
+.product-container h4 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.product-container p {
+    margin: 0;
+    font-size: 14px;
+}
+.product-container a {
+    margin-top: 10px!important;
+}
+.bottom-border {
+    border-bottom: 4px solid #AA1E21;
+}
+.for-margin {
+    margin-top: 150px;
+}
+/* Product Showcase Ends Here */
+
+/* ------- Common Title Starts --------- */
+.common-title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #AA1E21;
+}
+.common-title p {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.common-title hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+.common-title hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+}
+.common-title a {
+    color: #AA1E21;
+    font-weight: 700;
+    font-size: 14px;
+}
+.custom-btn {
+    background-color: #AA1E21;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s ease;
+}
+.custom-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* ------- Common Title Ends --------- */
+/* ------- Comparison Table --------- */
+.comparison-section {
+    padding: 50px 0;
+   background: #AA1E21;
+   background: linear-gradient(to bottom, #AA1E21, #000000);
+}
+.highlight-color {
+    background-color: #e79b0e;
+    background: linear-gradient(to top, #AA1E21, #000000);
+    color: #FFF;
+}
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.pricing hr {
+  margin: 1.5rem 0;
+}
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+.pricing .card-price {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 700;
+}
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+.pricing ul li {
+     margin-bottom: 1rem;
+     font-size: 13px;
+}
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+.custom-table-btn {
+    background-color: #AA1E21;
+    color: #fff;
+}
+.custom-table-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.highlight-color .custom-table-btn {
+    background-color: #000;
+    color: #fff;
+}
+.highlight-color .custom-table-btn:hover {
+    background-color: #AA1E21;
+    color: #fff;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+/* ------- Service Table --------- */
+/* ------- Testimonial Section Starts Here --------- */
+#clients {
+	padding: 50px 0;
+	background-color: #FFF;
+}
+.owl-carousel {
+	margin-top: 50px;
+}
+.owl-carousel img {
+	width: 10%!important;
+	margin: 0 auto;
+}
+.carousel-logo img {
+	width: 10%!important;
+	border-radius: 0%;
+	margin: 0 auto;
+}
+.testimonial_body {
+	font-style: italic;
+	padding-top: 10px;
+	width: 70%;
+	margin: 0 auto;
+}
+.client_name {
+	padding-top: 10px;
+	color: #AA1E21;
+}
+/* ------- Testimonial Section Ends Here --------- */
+/* ------- Footer Section Starts Here --------- */
+footer {
+	padding-top: 50px;
+}
+.footer-description h5 {
+	font-size: 18px;
+	font-weight: 700;
+    color: #AA1E21;
+}
+.footer-description ul li, .footer-description p,  .footer-copyright p, .footer-copyright a {
+	margin: 5px 0;
+	font-size: 13px;
+	color: #000;
+}
+.footer-description ul li a {
+	color: #000;
+}
+.footer-copyright a {
+	font-weight: 700;
+}
+.footer-copyright a i {
+	font-size: 20px;
+	font-weight: 500;
+}
+/* ------- Footer Section Ends Here --------- */
+
