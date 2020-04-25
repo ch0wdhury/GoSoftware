@@ -24,7 +24,7 @@ a:hover {
 
 /*  Header Section Starts */
 header {
-	color: #e79b0e;
+	background-color: #AA1E21;
     position: relative;
     min-height: 56px;
 }
@@ -50,7 +50,7 @@ header img {
     background-image: url('../images/banner.mcfee.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .banner-product-details {
     padding: 30px 50px;
